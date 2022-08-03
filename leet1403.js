@@ -13,19 +13,6 @@ var minSubsequence = function(nums) {
         }
     }
     return result;
-    // let sum2 = 0;
-    // let i = 0;
-    // while (sum2 < sum / 2) {
-    //     sum2 += sorted[i];
-    //     i++;
-    // }
-    // const res = [];
-    // for (let j = i - 1; j >= 0; j--) {
-    //     res.push(sorted[j]);
-    // }
-    // return res;
-
-
 };
 const nums = [4,3,2,6,5,1];
 console.log(minSubsequence(nums));
